@@ -35,6 +35,10 @@
       "allowedCategories": [ "production" ]
     },
     {
+      "name": "sub",
+      "allowedCategories": [ "production" ]
+    },
+    {
       "name": "typescript",
       "allowedCategories": [ "production" ]
     }
