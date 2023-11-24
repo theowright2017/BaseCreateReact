@@ -124,7 +124,7 @@
    * The approvals are tracked in two config files "browser-approved-packages.json"
    * and "nonbrowser-approved-packages.json".  See the Rush documentation for details.
    */
-  // "approvedPackagesPolicy": {
+  "approvedPackagesPolicy": {
   //   /**
   //    * The review categories allow you to say for example "This library is approved for usage
   //    * in prototypes, but not in production code."
@@ -137,12 +137,12 @@
   //    * Designate categories with whatever granularity is appropriate for your review process,
   //    * or you could just have a single category called "default".
   //    */
-  //   "reviewCategories": [
+    "reviewCategories": [
   //     // Some example categories:
-  //     "production", // projects that ship to production
+      "production" // projects that ship to production
   //     "tools",      // non-shipping projects that are part of the developer toolchain
   //     "prototypes"  // experiments that should mostly be ignored by the review process
-  //   ],
+    ],
   // 
   //   /**
   //    * A list of NPM package scopes that will be excluded from review.
@@ -151,7 +151,7 @@
   //    * are also approved.
   //    */
   //   // "ignoredNpmScopes": ["@types"]
-  // },
+  },
 
   /**
    * If you use Git as your version control system, this section has some additional
@@ -342,6 +342,15 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "base",
+      "projectFolder": "apps/base"
+    },
+    {
+      "packageName": "sub",
+      "projectFolder": "apps/sub",
+      "reviewCategory": "production"
+    }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
