@@ -1,0 +1,42 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@types/node",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@types/react",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "@types/react-dom",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "eslint-config-next",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "next",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "react-dom",
+      "allowedCategories": [ "production" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "production" ]
+    }
+  ]
+}

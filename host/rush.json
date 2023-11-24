@@ -344,11 +344,12 @@
   "projects": [
     {
       "packageName": "base",
-      "projectFolder": "apps/base"
+      "projectFolder": "apps/base",
+      "reviewCategory": "production"
     },
     {
       "packageName": "sub",
-      "projectFolder": "apps/sub",
+      "projectFolder": "libraries/sub",
       "reviewCategory": "production"
     }
     // {
